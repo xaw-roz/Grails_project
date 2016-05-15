@@ -7,7 +7,20 @@
           <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
           <root url="file://$MODULE_DIR$/../../build/assets" relative="/assets" />
         </webroots>
-        <sourceRoots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../src/main/resources" />
+          <root url="file://$MODULE_DIR$/../../grails-app/services" />
+          <root url="file://$MODULE_DIR$/../../grails-app/conf" />
+          <root url="file://$MODULE_DIR$/../../src/main/java" />
+          <root url="file://$MODULE_DIR$/../../grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/../../grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/../../src/main/groovy" />
+          <root url="file://$MODULE_DIR$/../../grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/../../grails-app/utils" />
+          <root url="file://$MODULE_DIR$/../../grails-app/domain" />
+          <root url="file://$MODULE_DIR$/../../grails-app/init" />
+          <root url="file://$MODULE_DIR$/../../grails-app/views" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -16,11 +29,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../grails-app">
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/controllers" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/init" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/taglib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/conf" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/i18n" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/views" type="java-resource" />
@@ -135,8 +144,8 @@
     <orderEntry type="library" name="Gradle: org.apache.ant:ant-antlr:1.9.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.ant:ant-launcher:1.9.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.ant:ant-junit:1.9.4" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.6.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.javascript:closure-compiler:v20151015" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.6.5" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.6.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aspects:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.8" level="project" />
@@ -184,5 +193,9 @@
     <orderEntry type="library" name="Gradle: com.goldmansachs:gs-collections-api:5.1.0" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:asm:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: asm:asm:3.3.1" level="project" />
+  </component>
+  <component name="RModuleSettingsStorage">
+    <LOAD_PATH number="0" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/../../grails-app/i18n" />
   </component>
 </module>
