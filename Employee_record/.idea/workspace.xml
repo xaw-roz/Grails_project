@@ -1503,7 +1503,7 @@
       <workItem from="1463319801750" duration="194000" />
       <workItem from="1463320027494" duration="205000" />
       <workItem from="1463320241956" duration="408000" />
-      <workItem from="1463392130607" duration="883000" />
+      <workItem from="1463392130607" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="Added mysql connector and configured application.yml for mysql database">
       <created>1463392911837</created>
@@ -1512,11 +1512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463392911837</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added mysql connector and configured application.yml for mysql database">
+      <created>1463393027223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1463393027223</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1825000" />
+    <option name="totallyTimeSpent" value="1845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="2184" height="1394" extended-state="6" />
