@@ -1585,7 +1585,7 @@
       <workItem from="1463460322514" duration="2396000" />
       <workItem from="1463472127576" duration="40000" />
       <workItem from="1463479348779" duration="1561000" />
-      <workItem from="1463546489764" duration="6731000" />
+      <workItem from="1463546489764" duration="7052000" />
     </task>
     <task id="LOCAL-00001" summary="Added mysql connector and configured application.yml for mysql database">
       <created>1463392911837</created>
@@ -1626,7 +1626,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13717000" />
+    <option name="totallyTimeSpent" value="14038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
