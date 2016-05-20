@@ -6,7 +6,8 @@ import grails.transaction.Transactional
 class ProjectController {
     def index()
     {
-        render "hello all"
+        def projects=Project.findAll();
+        [projects: projects]
     }
     def create()
     {
@@ -15,13 +16,19 @@ class ProjectController {
     def save()
     {
         def project=new Project(params)
-        project.save();
+        project.save(failOnError:true);
         render "saved successfully"
     }
     def edit()
     {
         def project=Project.get(params.id)
         [project:project]
+    }
+    def delete()
+    {
+        def project=Project.get(params.id)
+        project.delete()
+
     }
 
 }

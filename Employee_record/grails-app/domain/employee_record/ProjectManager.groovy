@@ -7,7 +7,7 @@ import org.hibernate.validator.constraints.Email
  */
 class ProjectManager {
     String name
-    Email emailid
+    String emailid
     static hasone = [Project:ProjectManager]
     Date startdate
     Date enddate

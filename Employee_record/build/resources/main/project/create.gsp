@@ -13,10 +13,10 @@
     <g:textField name="projectId" value=""></g:textField>
     <br/>
     <label for="startDate">Start Date</label>
-    <g:datePicker name="startDate"></g:datePicker>
+    <g:datePicker name="startDate" precision="day"></g:datePicker>
     <br/>
     <label for="endDate">Start End</label>
-    <g:datePicker name="endDate" ></g:datePicker>
+    <g:datePicker name="endDate" precision="day"></g:datePicker>
     <br/>
     <label for="projectBudget">Project Budget</label>
     <g:textField name="projectBudget"></g:textField>

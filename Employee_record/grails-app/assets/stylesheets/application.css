@@ -13,3 +13,11 @@
 *= require mobile
 *= require_self
 */
+.navbar-default, .navbar-static-top {
+    background-color: #5bc0de;
+    border: 0px none;
+}
+.footer
+{
+    background-color: #5bc0de;
+}
