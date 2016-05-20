@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9453745e-f413-4ac6-85ea-59b3ac062db0" name="Default" comment="Created views and controller for domain named project and added bootstrap">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.asscache" afterPath="$PROJECT_DIR$/.asscache" />
+    <list default="true" id="9453745e-f413-4ac6-85ea-59b3ac062db0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
@@ -14,13 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/project/create.gsp" afterPath="$PROJECT_DIR$/build/resources/main/project/create.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/project/edit.gsp" afterPath="$PROJECT_DIR$/build/resources/main/project/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/grails.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/grails.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/employee_record/ProjectController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/employee_record/ProjectController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/employee_record/ProjectManager.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/employee_record/ProjectManager.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/project/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/project/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/project/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/project/index.gsp" />
     </list>
     <ignored path="Employee_record.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1700,7 +1692,7 @@
       <workItem from="1463632575254" duration="4022000" />
       <workItem from="1463647424966" duration="670000" />
       <workItem from="1463673097787" duration="33000" />
-      <workItem from="1463721571723" duration="8006000" />
+      <workItem from="1463721571723" duration="8020000" />
     </task>
     <task id="LOCAL-00001" summary="Added mysql connector and configured application.yml for mysql database">
       <created>1463392911837</created>
@@ -1737,11 +1729,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463393565281</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created views and controller for domain named project and added bootstrap">
+      <created>1463736660178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1463736660178</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27909000" />
+    <option name="totallyTimeSpent" value="27923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
