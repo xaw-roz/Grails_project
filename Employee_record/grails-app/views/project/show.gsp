@@ -1,4 +1,5 @@
 <meta name="layout" content="main"/>
+<div class="form_div">
 <label>Project Name:</label>
 ${project.projectName}
 <br>
@@ -14,4 +15,5 @@ ${project.endDate}
 <label>Project Budget:</label>
 ${project.projectBudget}
 <br>
+</div>
 

@@ -2,6 +2,7 @@
 body,
 input, select, textarea {
     font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,7 +28,10 @@ html {
 html.no-cssgradients {
     background-color: #aaa;
 }
-
+.form_div{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 html * {
     margin: 0;
 }
