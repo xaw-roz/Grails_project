@@ -6,22 +6,28 @@
 </head>
 <body>
 <g:form method="post">
+    <div class="form-group">
     <label for="projectName">Project Name</label>
-    <g:textField name="projectName" value=""></g:textField>
-    <br/>
+    <g:textField name="projectName" class="form-control" value=""></g:textField>
+    </div>
+    <div class="form-group">
     <label for="projectId">Project Id</label>
-    <g:textField name="projectId" value=""></g:textField>
-    <br/>
+    <g:textField name="projectId" class="form-control" value=""></g:textField>
+    </div>
+    <div class="form-group">
     <label for="startDate">Start Date</label>
-    <g:datePicker name="startDate" precision="day"></g:datePicker>
-    <br/>
-    <label for="endDate">Start End</label>
-    <g:datePicker name="endDate" precision="day"></g:datePicker>
-    <br/>
+    <g:datePicker name="startDate" precision="day" class="date-picker"></g:datePicker>
+    </div>
+    <div class="form-group">
+    <label for="endDate">End Date</label>
+    <g:datePicker name="endDate" precision="day" class="date-picker-popup"></g:datePicker>
+    </div>
+    <div class="form-group">
     <label for="projectBudget">Project Budget</label>
-    <g:textField name="projectBudget"></g:textField>
-    <br/>
-    <g:actionSubmit value="Create Project" action="save"></g:actionSubmit>
+    <g:textField name="projectBudget" class="form-control" value=""></g:textField>
+    </div>
+
+    <g:actionSubmit value="Create Project" class="btn btn-default" action="save"></g:actionSubmit>
 </g:form>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <title> Edit a project ${project.projectName}</title>
 </head>
 <body>
-<g:form method="post">
+<g:form method="put" controller="project" action="update" id="$project.id">
     <label for="projectName">Project Name</label>
     <g:textField name="projectName" value="${project.projectName}"></g:textField>
     <br/>
@@ -21,7 +21,7 @@
     <label for="projectBudget">Project Budget</label>
     <g:textField name="projectBudget" value="${project.projectBudget}"></g:textField>
     <br/>
-    <g:actionSubmit value="Submit Changes" action="Update"></g:actionSubmit>
+    <g:actionSubmit value="${message(code: 'default.button.update.label', default: 'Update')}" ></g:actionSubmit>
 </g:form>
 </body>
 </html>
