@@ -5,6 +5,7 @@
     <title> Create a new project</title>
 </head>
 <body>
+<div class="form_div">
 <g:form method="post">
     <div class="form-group">
     <label for="projectName">Project Name</label>
@@ -27,7 +28,8 @@
     <g:textField name="projectBudget" class="form-control" value=""></g:textField>
     </div>
 
-    <g:actionSubmit value="Create Project" class="btn btn-default" action="save"></g:actionSubmit>
+    <g:actionSubmit value="Create Project" class="btn-default" action="save"></g:actionSubmit>
 </g:form>
+</div>
 </body>
 </html>
