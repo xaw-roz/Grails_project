@@ -39,7 +39,7 @@ class UserRole implements Serializable {
 	private static DetachedCriteria criteriaFor(long userId, long roleId) {
 		UserRole.where {
 			user == User.load(userId) &&
-			role == Role.load(roleId)
+					role == Role.load(roleId)
 		}
 	}
 

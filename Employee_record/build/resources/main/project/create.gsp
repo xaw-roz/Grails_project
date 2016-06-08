@@ -28,7 +28,7 @@
     <g:textField name="projectBudget" class="form-control" value=""></g:textField>
     </div>
 
-    <g:actionSubmit value="Create Project" class="btn-default" action="save"></g:actionSubmit>
+    <g:actionSubmit value="Create Project" class="btn btn-lg btn-primary btn-block btn-signin" action="save"></g:actionSubmit>
 </g:form>
 </div>
 </body>

@@ -1,9 +1,12 @@
 package employee_record
 
+import grails.plugin.springsecurity.annotation.Secured
 import grails.transaction.Transactional
 
 
 class ProjectController {
+    def projectService
+
     def index()
     {
         def projects=Project.findAll();
@@ -16,9 +19,14 @@ class ProjectController {
     def save()
     {
         def project=new Project(params)
-        project.save(failOnError:true);
-        flash.message="Project created successfully"
-        redirect action: "index"
+        def result=projectService.createProject(project)
+        if(result.message)
+        {
+            flash.message=result.message
+
+        }
+        redirect action: 'index'
+
     }
     def edit()
     {
@@ -29,7 +37,6 @@ class ProjectController {
     def update()
 
     {
-        println("updated ")
         def project=Project.get(params.id)
         bindData(project,params)
         flash.message="The changes were stored successfully"
@@ -38,11 +45,14 @@ class ProjectController {
     def delete()
     {
         def project=Project.get(params.id)
-        project.delete()
-        flash.message="The project was deleted successfully"
+        def result=projectService.deleteProject(project)
+        if(result.message) {
+            flash.message = "The project was deleted successfully"
+        }
         redirect action: 'index'
 
     }
+    @Secured(['permitAll'])
     def show()
     {
         def project=Project.get(params.id)
