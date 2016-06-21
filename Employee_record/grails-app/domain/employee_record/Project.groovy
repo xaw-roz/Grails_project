@@ -7,6 +7,7 @@ class Project {
     String projectId
     Date startDate
     Date endDate
+    static hasMany = [users:User]
 
     Float projectBudget
 

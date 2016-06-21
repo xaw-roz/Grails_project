@@ -22,9 +22,12 @@
           <element id="library" level="project" name="Gradle: org.grails.plugins:scaffolding:3.2.1" />
           <element id="library" level="project" name="Gradle: org.grails.plugins:hibernate4:5.0.5" />
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-ehcache:4.3.11.Final" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.16" />
+          <element id="library" level="project" name="Gradle: org.grails.plugins:spring-security-core:3.1.1" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.5" />
           <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.16" />
           <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.16" />
+          <element id="library" level="project" name="Gradle: org.grails.plugins:asset-pipeline:3.2.1" />
           <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.16" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.3.3.RELEASE" />
           <element id="library" level="project" name="Gradle: xalan:serializer:2.7.2" />
@@ -63,12 +66,16 @@
           <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1" />
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:4.3.11.Final" />
           <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache-core:2.4.3" />
+          <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache:2.10.1" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-core:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-web:4.0.3.RELEASE" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.5" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.2.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.2.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.6" />
           <element id="library" level="project" name="Gradle: org.mozilla:rhino:1.7R4" />
+          <element id="library" level="project" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.8.1" />
           <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.16" />
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-ant:2.4.6" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.2.5.RELEASE" />
@@ -105,8 +112,8 @@
           <element id="library" level="project" name="Gradle: org.apache.ant:ant-launcher:1.9.4" />
           <element id="library" level="project" name="Gradle: org.apache.ant:ant-junit:1.9.4" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.6.5" />
-          <element id="library" level="project" name="Gradle: com.google.javascript:closure-compiler:v20151015" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.6.5" />
+          <element id="library" level="project" name="Gradle: com.google.javascript:closure-compiler:v20151015" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:4.2.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.8" />
           <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.8.8" />
@@ -153,13 +160,6 @@
           <element id="library" level="project" name="Gradle: com.goldmansachs:gs-collections-api:5.1.0" />
           <element id="library" level="project" name="Gradle: net.minidev:asm:1.0.2" />
           <element id="library" level="project" name="Gradle: asm:asm:3.3.1" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.16/2780fb82cc9c7083f06724432b4f1d1607548d77/mysql-connector-java-5.1.16.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.1/62998dc11053792cedfb979ffc94921d346eaeb6/spring-security-core-3.1.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/asset-pipeline/3.2.1/32a127d37d6deeac5916b256db8b0fe8b3a9a9ad/asset-pipeline-3.2.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.1/a507a1302b631d0718fe29ae95d4e52e646ecc5a/ehcache-2.10.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.0.3.RELEASE/9f420c5742ad063970c5d33f60680a1cee777aa5/spring-security-core-4.0.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.0.3.RELEASE/5f0233d94ca53ac8710780b43791f633f970480a/spring-security-web-4.0.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-core/2.8.1/45c5ab9dbbb515ad4ac8be3f8e9040ae2842464c/asset-pipeline-core-2.8.1.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">

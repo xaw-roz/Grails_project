@@ -14,7 +14,9 @@ class ProjectController {
     }
     def create()
     {
-        render view: 'create'
+        def users=User.findAll()
+
+        [users:users]
     }
     def save()
     {

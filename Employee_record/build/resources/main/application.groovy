@@ -8,7 +8,6 @@ grails.plugin.springsecurity.logout.postOnly=false
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/',               access: ['permitAll']],
 	[pattern: '/home',               access: ['permitAll']],
-	[pattern: '/home.gsp',               access: ['permitAll']],
 	[pattern: '/error',          access: ['permitAll']],
 	[pattern: '/index',          access: ['permitAll']],
 	[pattern: '/index.gsp',      access: ['permitAll']],

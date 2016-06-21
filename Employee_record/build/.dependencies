@@ -9,7 +9,9 @@ dependencies:
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails.plugins/scaffolding/3.2.1/82b56d19aff8da7818a17e723c8a49f7499caf26/scaffolding-3.2.1.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate4/5.0.5/208f362d1ebc3b97ff0444d89da82b5e65f687b3/hibernate4-5.0.5.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/4.3.11.Final/cea0e6aba102c00cf899bd547c338fcf54468433/hibernate-ehcache-4.3.11.Final.jar
-- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-grails/2.8.2/97bceaa633ee9f01b272e0b7fe9d960309ae43ab/asset-pipeline-grails-2.8.2.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.16/2780fb82cc9c7083f06724432b4f1d1607548d77/mysql-connector-java-5.1.16.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.1/62998dc11053792cedfb979ffc94921d346eaeb6/spring-security-core-3.1.1.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails.plugins/asset-pipeline/3.2.1/32a127d37d6deeac5916b256db8b0fe8b3a9a9ad/asset-pipeline-3.2.1.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.191/dec3540178ea889b2871b0ed56db14bbec9cfdfc/h2-1.4.191.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.1.6/79aee2ea91d7d7893dc53a90449c7c79e9ccf39e/grails-plugin-testing-3.1.6.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.0.1/e18899087e1202746f44193d6c7a1657afd9260e/geb-1.0.1.jar
@@ -55,8 +57,11 @@ dependencies:
 - file:/C:/Users/enspire/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.11.Final/536ac0021240d97db99c7d2983067cef1a6f3af5/hibernate-core-4.3.11.Final.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.4.3/fd258ef6959f27fb678b04f90139ded4588e2d15/ehcache-core-2.4.3.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.1/a507a1302b631d0718fe29ae95d4e52e646ecc5a/ehcache-2.10.1.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.0.3.RELEASE/9f420c5742ad063970c5d33f60680a1cee777aa5/spring-security-core-4.0.3.RELEASE.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.0.3.RELEASE/5f0233d94ca53ac8710780b43791f633f970480a/spring-security-web-4.0.3.RELEASE.jar
 - file:/C:/Users/enspire/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar
-- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-core/2.8.2/2a271f735f8ddd87dcc000ec1fba306b8504f428/asset-pipeline-core-2.8.2.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-core/2.8.1/45c5ab9dbbb515ad4ac8be3f8e9040ae2842464c/asset-pipeline-core-2.8.1.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/cglib/cglib/2.2.2/a47a971686474124562bdd4a7ccbd8ac8c3e8b11/cglib-2.2.2.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails/grails-test/3.1.6/a017df2ef2328c239f079c6971084d7c30110f32/grails-test-3.1.6.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails/grails-logging/3.1.6/5d0a6d73996afde97ddf38ffa45f724e458de0f7/grails-logging-3.1.6.jar
@@ -113,6 +118,7 @@ dependencies:
 - file:/C:/Users/enspire/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar
 - file:/C:/Users/enspire/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
 - file:/C:/Users/enspire/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler/v20151015/8e20293908bc676ad6ed2013a4f52728b87af460/closure-compiler-v20151015.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/2.4.6/b185462b630df82768b8f3c444894af98964c9bf/groovy-test-2.4.6.jar
@@ -136,7 +142,6 @@ dependencies:
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.2.15.v20160210/ccd245541cc63311bdcfe551525bd7d82ea5e92c/jetty-util-9.2.15.v20160210.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.2.15.v20160210/5a3af41803c12b0f3628ed8927a8cedb42972169/jetty-io-9.2.15.v20160210.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.2.15.v20160210/ee5616ec65d6c8f05fe16ee4dbb6723b2ebff470/websocket-common-9.2.15.v20160210.jar
-- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.9.4/6d473e8653d952045f550f4ef225a9591b79094a/ant-1.9.4.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/2.4.6/8ff8fae45749021dd10d2cb3a5c5662a6c277881/groovy-groovydoc-2.4.6.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.9.4/4cf30025981dc2344324a0ef0e40063c3ef08f0a/ant-antlr-1.9.4.jar
@@ -189,5 +194,5 @@ dependencies:
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/net.minidev/asm/1.0.2/63900a15f524db0b8c4fb2d9e24c0cb179842ea5/asm-1.0.2.jar
 - file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar
 profiles:
-- file:/C:/Users/enspire/.m2/repository/org/grails/profiles/web/3.1.6/web-3.1.6.jar
-- file:/C:/Users/enspire/.m2/repository/org/grails/profiles/base/3.1.6/base-3.1.6.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails.profiles/web/3.1.5/c1004f98980aa6386e43dae89901eabfc3c5c04e/web-3.1.5.jar
+- file:/C:/Users/enspire/.gradle/caches/modules-2/files-2.1/org.grails.profiles/base/3.1.5/45dfe662e5fb2d66218fc21c4f8895c825958a52/base-3.1.5.jar

@@ -23,6 +23,8 @@
     <label for="endDate">End Date</label>
     <g:datePicker name="endDate" precision="day" class="date-picker-popup"></g:datePicker>
     </div>
+    <div class="form-group"><label>Members: </label><g:select class="form-control" name="users" from="${users}"  value="firstName"  optionKey="id"/></div>
+
     <div class="form-group">
     <label for="projectBudget">Project Budget</label>
     <g:textField name="projectBudget" class="form-control" value=""></g:textField>
